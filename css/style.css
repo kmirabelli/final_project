@@ -25,11 +25,11 @@ a {
 }
 
 a:hover {
-    color: #e74c3c;
+    color: #F94E31;
 }
 
 h1 a {
-    color: #e74c3c;
+    color: #F94E31;
     display: block;
     float: left;
     font-size: 18px;
@@ -37,13 +37,8 @@ h1 a {
     text-align: left;
 }
 
-nav a {
-    font-size: 1em;
-    padding: 2%;
-}
-
 nav a:hover {
-    color: #e74c3c;
+    color: #F94E31;
 }
 
 .normal {
@@ -114,7 +109,7 @@ nav a:hover {
     display: block;
 }
 
-#carousel a {
+.carousel a {
     background-color: #bdc3c7;
     border-radius: 10px;
     display: inline-block;
@@ -126,8 +121,8 @@ nav a:hover {
     width: 1px;
 }
 
-#carousel .current {
-    background-color: #e74c3c;
+.carousel .current {
+    background-color: #F94E31;
 }
 
 #about {
@@ -173,7 +168,7 @@ p {
         display: block;
     }
     #mobile:hover {
-        color: #e74c3c;
+        color: #F94E31;
     }
     .normal {
         display: none;
