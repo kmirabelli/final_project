@@ -20,12 +20,8 @@ body {
 }
 
 a {
-    color: #bdc3c7;
+    color: #B3B3B3;
     text-decoration: none;
-}
-
-a:hover {
-    color: #F94E31;
 }
 
 h1 a {
@@ -37,22 +33,22 @@ h1 a {
     text-align: left;
 }
 
-nav a:hover {
-    color: #F94E31;
-}
-
 .normal {
     display: block;
 }
 
 .normal a {
     float: right;
-    font-size: 1em;
+    font-size: 14px;
     padding: 2%;
 }
 
+.normal a:hover {
+    color: #F94E31;
+}
+
 #mobile {
-    color: #bdc3c7;
+    color: #B3B3B3;
     display: none;
     font-size: 18px;
     margin-right: .15em;
@@ -60,18 +56,27 @@ nav a:hover {
     text-align: right;
 }
 
+#mobile a:hover {
+    color: #F94E31;
+}
+
 .small {
     display: none;
 }
 
 .small a {
-    color: #bdc3c7;
+    color: #B3B3B3;
     display: block;
-    font-size: 1em;
+    font-size: 14px;
     padding: 2%;
     text-align: right;
     text-decoration: none;
 }
+
+.small a:hover {
+    color: #F94E31;
+}
+
 
 #clearfix: after {
   clear: both;
@@ -82,20 +87,19 @@ nav a:hover {
 #portfolio {
     box-sizing: border-box;
     display: inline-block;
-    padding-bottom: 40px;
-    padding-top: 40px;
     text-align: center;
     width: 100%;
 }
 
 .thumb {
-    background-color: #bdc3c7;
-    color: black;
     display: block;
-    height: 400px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 40px;
     width: 80%;
+}
+
+.main {
+    width: 100%;
 }
 
 #current {
@@ -111,15 +115,15 @@ nav a:hover {
 }
 
 .carousel a {
-    background-color: #bdc3c7;
-    border-radius: 10px;
+    background-color: #B3B3B3;
+    border-radius:15px;
     display: inline-block;
-    height: 1px;
-    margin: 15px;
-    padding: 10px;
+    height: 3px;
+    margin: 6px;
+    padding: 6px;
     text-align: center;
     text-decoration: none;
-    width: 1px;
+    width: 3px;
 }
 
 .carousel .current {
@@ -141,12 +145,21 @@ nav a:hover {
     width: 25%;
 }
 
+#about a {
+    color: #F94E31;
+}
+
+#about a:hover {
+    color: #B3B3B3;
+}
+
 footer {
-    text-align: center;
+  padding: 2em;
+  text-align: center;
 }
 
 p {
-    color: #bdc3c7;
+    color: #B3B3B3;
     font-size: 1em;
     line-height: 1.5;
     margin: .15em;
@@ -165,7 +178,7 @@ p {
 
 @media only screen and (max-width: 600px) {
     #mobile {
-        color: #bdc3c7;
+        color: #B3B3B3;
         display: block;
     }
     #mobile:hover {
