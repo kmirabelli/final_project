@@ -90,6 +90,7 @@ nav a:hover {
 
 .thumb {
     background-color: #bdc3c7;
+    color: black;
     display: block;
     height: 400px;
     margin: 0 auto;
