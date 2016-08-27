@@ -5,17 +5,22 @@ body {
 }
 
 .wrapper {
-  margin-left: 30px;
-  margin-right: 30px;
-  padding: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 0 5px 0 5px;
+}
+
+.container {
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 0 5px 0 5px;
 }
 
 header {
-  display: inline;
-  height: 30px;
+/*  display: inline;
   padding-bottom: 20px;
-  position: relative;
-}
+/*  position: relative;
+*/}
 
 a {
   color: #bdc3c7;
@@ -28,41 +33,46 @@ a:hover {
 
 h1 a {
   color: #e74c3c;
-  float: right;
-  font-size: .8em;
-  font-weight: 300;
-  line-height: 1.0;
-  padding: 5px;
-  text-align: right;
-}
-
-#navbar {
-  float: left;
-  font-size: 1em;
-  overflow: hidden;
-  padding: 5px;
-}
-
-#navbar a {
-  color: #bdc3c7;
   display: block;
   float: left;
   font-size: 1em;
-  line-height: 2.0;
-  padding-right: 10px;
+  font-weight: 300;
   text-align: left;
+  top: 0;
+}
+
+.navbar {
+/*  display: block;
+*//*  float: left;*/
+  float: right;
+  font-size: 1em;
+/*  overflow: hidden;
+*/padding: 2%;
+}
+
+.navbar a {
+  color: #bdc3c7;
+  display: block;
+  float: right;
+  font-size: .5em;
+  padding-right: 7px;
+  text-align: right;
   text-decoration: none;
+  top: 0;
   width: 100%;
 }
 
-#navbar a:hover{
-  color: #e74c3c;  
+.navbar a:hover{
+  color: #e74c3c;
+  display: block;  
 }
 
 #mobile {
   color: #bdc3c7;
   display: none;
-  text-align: left;
+  float: right;
+  font-size: 18px;
+  text-align: right;
 }
 
 .clearfix:after {
@@ -73,8 +83,8 @@ h1 a {
 
 #portfolio {
   display: inline-block;
-  height: 375px;  
-  padding-bottom: 20px;
+/*  height: 450px;  
+*/  padding-bottom: 20px;
   padding-top: 20px;
   text-align: center;
   width: 100%;
@@ -82,15 +92,17 @@ h1 a {
 
 .thumb {
   display: block;
-  max-width: 400px;
-  padding-bottom: 20px;
-  padding-top: 40px;
+/*  max-width: 400px;
+*//*  padding-bottom: 20px;
+  padding-top: 40px;*/
+  margin-left: 25%;
+  margin-right: 25%;
   text-align: center;
-  width: 80%;
+  width: 50%;
 }
 
 #current {
-  display: inline-block;
+  display: block;
 }
 
 .slide {
@@ -98,7 +110,7 @@ h1 a {
 }
 
 .slide-current {
-  display: inline-block;
+  display: block;
 }
 
 #navigation {
@@ -132,15 +144,16 @@ h1 a {
 }
 
 #about img {
+  display: block;
   float: left; 
   padding-right: 3px;
   width: 25%;
 }
 
 footer {
-  height: 40px;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  bottom: 0;
+/*  padding-bottom: 30px;
+  padding-top: 30px;*/
   text-align: center;
 }
 
@@ -173,13 +186,14 @@ p {
     color: #e74c3c;
 }
 
-  #navbar {
+  .navbar {
     display: none;
     width: 100%;
   }
 
-  #navbar.open {
+  .navbar.open {
     display: block;
-    text-align: left;
+    float: right;
+    text-align: right;
     width: 100%;
   }
