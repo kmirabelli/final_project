@@ -2,10 +2,10 @@ document.getElementById("mobile").onclick = function() {
     document.querySelector(".small").classList.toggle("open");
 };
 
-$("#carousel a").click(function(){
-  $("#carousel a.current").removeClass("slide current");
-  $(this).addClass("slide current");
+$(".carousel a").click(function(){
+  $(".carousel a.current").removeClass("current");
+  $(this).addClass("current");
   var whichSlide = $(this).index();
-  $("div.current").removeClass("current");
-  $("div").eq(whichSlide).addClass("current");
+  $(".slide.current").removeClass("current");
+  $(".slide").eq(whichSlide).addClass("current");
 });
