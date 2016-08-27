@@ -40,7 +40,7 @@ h1 a {
 .normal a {
     float: right;
     font-size: 14px;
-    padding: 2%;
+    padding: 1.5%;
 }
 
 .normal a:hover {
@@ -51,7 +51,7 @@ h1 a {
     color: #B3B3B3;
     display: none;
     font-size: 18px;
-    margin-right: .15em;
+    margin-right: 5px;
     padding: 2%;
     text-align: right;
 }
@@ -100,18 +100,19 @@ h1 a {
 
 .main {
     width: 100%;
-}
-
-#current {
-    display: block;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .slide {
     display: none;
+    margin: 0 auto;
 }
 
 .slide.current {
     display: block;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .carousel a {
