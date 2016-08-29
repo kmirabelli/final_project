@@ -15,8 +15,8 @@ body {
 }
 
 .container {
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 2%;
+    min-height: 500px;
 }
 
 a {
@@ -33,6 +33,14 @@ h1 a {
     text-align: left;
 }
 
+h2 {
+    color: #B3B3B3;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: left;
+}
+
 .normal {
     display: block;
 }
@@ -40,7 +48,7 @@ h1 a {
 .normal a {
     float: right;
     font-size: 14px;
-    padding: 1.5%;
+    padding: 2%;
 }
 
 .normal a:hover {
@@ -77,11 +85,10 @@ h1 a {
     color: #F94E31;
 }
 
-
 #clearfix: after {
-  clear: both;
-  content: "";
-  display: block
+    clear: both;
+    content: "";
+    display: block
 }
 
 #portfolio {
@@ -93,14 +100,13 @@ h1 a {
 
 .thumb {
     display: block;
-    margin: 0 auto;
-    padding: 40px;
-    width: 80%;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    width: 100%;
 }
 
 .main {
-    width: 100%;
-    margin: 0 auto;
+    text-align: center;
     width: 100%;
 }
 
@@ -117,7 +123,7 @@ h1 a {
 
 .carousel a {
     background-color: #B3B3B3;
-    border-radius:15px;
+    border-radius: 15px;
     display: inline-block;
     height: 3px;
     margin: 6px;
@@ -131,10 +137,22 @@ h1 a {
     background-color: #F94E31;
 }
 
+.detail {
+    color: #B3B3B3;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.more img {
+    width: 100%;
+}
+
 #about {
     box-sizing: border-box;
     display: inline-block;
-    padding-bottom: 40px;
     padding-top: 40px;
     width: 100%;
 }
@@ -154,12 +172,23 @@ h1 a {
     color: #B3B3B3;
 }
 
-footer {
-  padding: 2em;
-  text-align: center;
+.home {
+    color: #F94E31;
+    padding: 20px;
+    text-align: center;
 }
 
-p {
+.home:hover {
+    color: #B3B3B3;
+    text-align: center;
+}
+
+footer {
+    padding: 2em;
+    text-align: center;
+}
+
+#about p {
     color: #B3B3B3;
     font-size: 1em;
     line-height: 1.5;
@@ -174,6 +203,7 @@ p {
 }
 
 #copyright {
+    color: #B3B3B3;
     padding-bottom: 20px;
 }
 
