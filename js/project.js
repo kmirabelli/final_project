@@ -1,3 +1,5 @@
+$(document).ready()
+
 document.getElementById("mobile").onclick = function() {
     document.querySelector(".small").classList.toggle("open");
 };
@@ -9,3 +11,4 @@ $(".carousel a").click(function(){
   $(".slide.current").removeClass("current");
   $(".slide").eq(whichSlide).addClass("current");
 });
+
