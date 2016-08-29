@@ -35,7 +35,7 @@ h1 a {
 
 h2 {
     color: #B3B3B3;
-    font-size: 14px;
+    font-size: 16px;
     padding-bottom: 10px;
     padding-top: 20px;
     text-align: left;
@@ -205,6 +205,12 @@ footer {
 #copyright {
     color: #B3B3B3;
     padding-bottom: 20px;
+}
+
+#fadeIn {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: infinite;
 }
 
 @media only screen and (max-width: 600px) {
